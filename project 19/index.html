@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>667</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!--Navbar-->
+    <nav class="nav-bar">
+      <img class="logo" src="667/ekip.png" />
+      <ul class="nav-links">
+        <li><a class="active" href="#">ACCUEIL</a></li>
+        <li><a href="#">COLLECTIF</a></li>
+        <li><a href="#">ALBUMS</a></li>
+        <li class="ctn">
+          <a href="#">CONTACT</a>
+        </li>
+      </ul>
+      <img src="667/menu-btn.png" alt="" class="menu-btn" />
+    </nav>
+
+    <header>
+      <div class="header-content">
+        <h1>DO NOT LACK...</h1>
+        <input type="text" placeholder="winwinwin@gmail.com" />
+        <input type="submit" value="ENVOYER" />
+      </div>
+    </header>
+
+    <!-- CONTENT -->
+    <section class="collectif">
+      <h1 class="titre1">LE COLLECTIF 667</h1>
+      <div class="row">
+        <div class="content-col">
+          <h3>Comment a été formée la secte:</h3>
+          <p>
+            Le collectif 667 comprend une quinzaine de membres ( le nombre exact
+            est assez flou ),<br />dont les plus connus sont Freeze Corleone,
+            Osirus Jack, Norsacce Berlusconi ou encore Zuukou Mayzie.<br />
+            Tous les membres viennent du Sénégal et se sont rencontrés au lycée
+            Jean-Mermoz à Dakar.
+          </p>
+        </div>
+        <div class="image-col">
+          <div class="image-gallery">
+            <img src="667/im1.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="albums">
+      <div class="title">
+        <h1>LES ALBUMS</h1>
+      </div>
+      <div class="row">
+        <div class="col">
+          <img src="667/PBB.jpg" alt="" />
+          <h4>Projet Blue Beam (2018)</h4>
+          <p>
+            Projet Blue Beam est le sixième projet de Freeze Corleone. Il est
+            précédé de deux mixtapes : THC en 2017 et F.D.T en 2016. On ne
+            retrouve qu'une seule collaboration dans cette mixtape, celle avec
+            son ami Osirus Jack sur le titre “Sacrifice de Masse”.
+          </p>
+          <a href="#" class="ctn">Savoir Plus</a>
+        </div>
+        <div class="col">
+          <img src="667/NIBIRU.jpg" alt="" />
+          <h4>Nibiru (2018)</h4>
+          <p>
+            Nibiru est le premier album solo d'Osirus Jack. Le nom de ce projet
+            fait référence à un astre associé au dieu Marduk, le dieu le plus
+            important de la mythologie babylonienne, mais fait également
+            référence au nom de la Planète X, alias “Nibiru” dont l'existence
+            est théorisée par Marshall Masters.
+          </p>
+          <a href="#" class="ctn">Savoir Plus</a>
+        </div>
+        <div class="col">
+          <img src="667/LMF.jpg" alt="" />
+          <h4>La Menace Fantôme (2020)</h4>
+          <p>
+            LMF, ou La Menace Fantôme, est le septième projet solo et premier
+            album de Freeze Corleone, très attendu par ses fans. Le nom de
+            l'album fait référence au premier épisode de la saga Star Wars, dont
+            on sait Freeze Corleone très admirateur, comme en témoignent les
+            multiples références à la saga dans ses paroles.
+          </p>
+          <a href="#" class="ctn">Savoir Plus</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <p>
+        La Propaganda Street, SALE 11160, MOROCCO | Phone: 0667110903 | Email:
+        contact667@gmail.com
+      </p>
+      <p>Copyright © 2022 667 EKIP</p>
+    </section>
+
+    <script>
+      const menuBtn = document.querySelector(".menu-btn");
+      const navlinks = document.querySelector(".nav-links");
+
+      menuBtn.addEventListener("click", () => {
+        navlinks.classList.toggle("mobile-menu");
+      });
+    </script>
+  </body>
+</html>
